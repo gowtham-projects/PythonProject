@@ -2,6 +2,4 @@
 
 cd /home/ec2-user/ludo-app
 
-echo "Starting Ludo Game"
-
-python3 run.py
+nohup python3 run.py > app.log 2>&1 &
